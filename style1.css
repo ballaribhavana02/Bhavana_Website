@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    background-color: pink;
+    padding: 1em 2em;
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: blue;
+    margin-left: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: darkred;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .hero button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .products {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .product-card {
+    width: 200px;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: pink;
+    text-align: center;
+    padding: 15px;
+  }
+  .image-slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 250px; 
+  }
+  
+  .image-slider img.slide {
+    width: 100%;
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .image-slider img.active {
+    display: block;
+  }
+  
+  .image-slider button.prev,
+  .image-slider button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: green(255, 255, 255, 0.6);
+    border: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .image-slider button.prev {
+    left: 5px;
+  }
+  
+  .image-slider button.next {
+    right: 5px;
+  }
+ .about, .contact {
+  padding: 40px 20px;
+  background-color: #fdf0f5;
+  color: #333;
+  text-align: center;
+}
